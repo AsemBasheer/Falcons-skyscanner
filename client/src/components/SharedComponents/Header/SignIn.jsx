@@ -79,9 +79,7 @@ class SignIn extends React.Component {
                                 required
                             />
                             <Button type='submit' className='dialog_button' > Log In </Button>
-                            
                         </form>
-                        
                         <Button type='submit' className='dialog_button' onClick={this.signUpStatus} > Sign Up </Button>
                         </div>:
                         <SignUp setUser={this.props.setUser} signUpStatus={this.signUpStatus} />
